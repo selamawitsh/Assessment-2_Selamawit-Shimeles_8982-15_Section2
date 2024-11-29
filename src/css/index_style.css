@@ -7,7 +7,7 @@
   /* header */
 
   header{
-    background: url(./src/images/image.png) ;
+    background: url(/src/images/image.png) ;
     height: 14em;
   }
   .header-container{
@@ -77,7 +77,7 @@
   
   /* main */
   main{
-    background: url(./src/images/main-bg.jpg);
+    background: url(/src/images/main-bg.jpg);
 
   }
   .main-container{
@@ -185,7 +185,7 @@
   
   /* info-section */
   .info-section{
-    background:url(./src/images/imageee.png);
+    background:url(/src/images/imageee.png);
     color: white;
   }
   
@@ -253,7 +253,7 @@
 
   /* footer */
   footer {
-    background: url(./src/images/footer_image.png);
+    background: url(/src/images/footer_image.png);
     border-top: 1px solid #6a6969;
     padding: 32px;
   }
