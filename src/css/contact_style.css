@@ -1,0 +1,53 @@
+.contact-main{
+    width: 49em;
+    margin: 0 72px;
+    padding: 0 32px;
+    border-top: none;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.contact-bar article{
+    padding: 0 0 16px 0;
+}
+
+.contact-bar h2{
+    font-weight: bold;
+    font-size:27px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db8937;
+    margin-top:27px;
+}
+
+.contact-bar p{
+        margin: 8px 0;
+        padding: 0 0 8px 0;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 1.6em;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-bar form label{
+    display: block;
+    margin: 0;
+    padding: 16px 0 0 0;
+}
+
+.contact-bar form input,textarea{
+    width: 32em;
+    border: 1px solid #c0c0c0;
+    padding: 18px;
+    background: #fff;
+}
+
+.submit-btn{
+    padding: 12px;
+    width: 7em;
+    color: white;
+    background-color:#db8937 ;
+    border: none;
+    border-radius: 12px;
+    margin: 8px auto;
+}
