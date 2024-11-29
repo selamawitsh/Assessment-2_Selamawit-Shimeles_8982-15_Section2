@@ -1,0 +1,40 @@
+.about-main{
+    width: 68em;
+    margin: 0 auto;
+    padding: 0 32px;
+    border-top: none;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description{
+    width: 40em;
+  }
+
+  .about-description h2{
+    font-weight: normal;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db8937;
+    padding: 8px 0;
+    margin: 8px 0;
+  }
+
+  .about-description h3{
+    margin: 8px 0;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 8px 0;
+    line-height: 1.8em;
+}
+
+.about-description p{
+    line-height: 1.8em;
+    margin: 8px 0;
+    padding: 0 0 8px 0;
+    font-weight: normal;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
