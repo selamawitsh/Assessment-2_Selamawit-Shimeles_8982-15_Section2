@@ -6,8 +6,13 @@
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
+    background: url(/src/images/main-bg.jpg);
   }
 
+  .nav-menu .about-link.active {
+    background-color: rgb(103, 71, 3);
+    color: white;
+}
   .description{
     width: 40em;
   }

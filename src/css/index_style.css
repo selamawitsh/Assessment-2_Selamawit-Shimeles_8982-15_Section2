@@ -69,16 +69,24 @@
     background: #CD853F;
     border-radius: 7px;
   }
-  
+
+  .index-link.active {
+    background-color: rgb(103, 71, 3);
+    color: white;
+  }
   
   /* main */
+  main{
+    background: url(/src/images/main-bg.jpg);
+
+  }
   .main-container{
     width: 68em;
     margin: 0 auto;
     padding: 0 32px;
     padding-bottom: 16px;
     display: flex;
-
+    
   }
   
   .main-bar {
@@ -268,3 +276,7 @@
     color:white;
   }
   
+
+  .footer-nav a.active {
+    color: rgb(255, 106, 0); 
+}

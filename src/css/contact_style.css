@@ -1,13 +1,20 @@
-.contact-main{
-    width: 49em;
-    margin: 0 72px;
+  .contact-main{
+    width: 68em;
+    margin: 0 auto;
     padding: 0 32px;
     border-top: none;
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
+    background: url(/src/images/main-bg.jpg);
+    gap: 18px
   }
 
+
+  .contact-link.active {
+    background-color: rgb(103, 71, 3);
+    color: white;
+}
 .contact-bar article{
     padding: 0 0 16px 0;
 }
@@ -51,3 +58,9 @@
     border-radius: 12px;
     margin: 8px auto;
 }
+
+.submit-btn:hover{
+    background-color: rgb(103, 71, 3);
+    cursor: pointer;
+}
+
