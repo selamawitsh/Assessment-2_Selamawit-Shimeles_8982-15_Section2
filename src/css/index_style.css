@@ -132,6 +132,10 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  .main-content p a{
+    color: #CD853F;
+
+  }
   .main-bar {
     flex: 3;
   }
