@@ -6,7 +6,7 @@
     padding-bottom: 16px;
     display: flex;
     justify-content: space-between;
-    background: url(/src/images/main-bg.jpg);
+    background: url(./src/images/main-bg.jpg);
   }
 
   .nav-menu .about-link.active {
